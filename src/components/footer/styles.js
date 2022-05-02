@@ -30,6 +30,8 @@ export const Social = styled.div`
 
 export const Link = styled.a`
   margin-right: 15px; 
+  text-decoration: none;
+  color: white;
 `
 
 export const Img = styled.img`
