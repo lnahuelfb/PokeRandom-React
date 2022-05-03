@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Main = styled.main`
-  height: 76vh;
+  width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,10 +9,17 @@ export const Main = styled.main`
 `
 
 export const Container = styled.div`
+  height: 76vh;
+  width: 100%;
   min-height: 250px;
-  width: 90%;
-  max-width: 450px;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+  @media (max-width: 480px) {
+    height: 450px;
+  }
 `
 
 export const CardContainer = styled.div`

@@ -4,7 +4,7 @@ import { Description, Foot, Social, Link, Img } from './styles'
 
 import linkedin from '../../images/linkedin.svg'
 import github from '../../images/github.svg'
-import twitter from '../../images/Twitter.svg'
+import porfolio from '../../images/nahu.png'
 
 const Footer = () => {
   return (
@@ -22,8 +22,8 @@ const Footer = () => {
         <Link href='https://github.com/lnahuelfb' target="_blank" rel="noopener noreferrer">
           <Img src={github} alt='Github'/>
         </Link>
-        <Link href='https://twitter.com/home' target="_blank" rel="noopener noreferrer">
-          <Img src={twitter} alt='Twitter'/>
+        <Link href='https://porfolio-nahuelfb.vercel.app/' target="_blank" rel="noopener noreferrer">
+          <Img src={porfolio} alt='Porfolio'/>
         </Link>
       </Social>
   </Foot>

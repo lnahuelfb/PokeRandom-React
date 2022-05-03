@@ -3,8 +3,6 @@ import styled from 'styled-components';
 export const Foot = styled.footer`
   background-color: #E83E34;
   display: flex;
-  position: fixed;
-  bottom: 0;
   border-top: solid 3px black;
   height: 12vh;
   width: 100%;
@@ -35,6 +33,5 @@ export const Link = styled.a`
 `
 
 export const Img = styled.img`
-  height: 25px;
-  width: 25px ;
+  width: 40px ;
 `
