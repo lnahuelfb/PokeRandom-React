@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <Foot>
       <Description>
-        <Link href='https://porfolio-nahuelfb.vercel.app/' target="_blank" rel="noopener noreferrer">
+        <Link href='https://nahuelfb.vercel.app/' target="_blank" rel="noopener noreferrer">
         Nahuel Beschtedt <br/>
         Fullstack Developer
         </Link>
@@ -22,7 +22,7 @@ const Footer = () => {
         <Link href='https://github.com/lnahuelfb' target="_blank" rel="noopener noreferrer">
           <Img src={github} alt='Github'/>
         </Link>
-        <Link href='https://porfolio-nahuelfb.vercel.app/' target="_blank" rel="noopener noreferrer">
+        <Link href='https://nahuelfb.vercel.app/' target="_blank" rel="noopener noreferrer">
           <Img src={porfolio} alt='Porfolio'/>
         </Link>
       </Social>

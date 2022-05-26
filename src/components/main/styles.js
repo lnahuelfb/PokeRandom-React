@@ -76,12 +76,13 @@ export const ButtonContainer = styled.div `
 `
 
 export const PokeButton = styled.button`
-  height: 25px;
+  height: 40px;
   width: 50%;
   max-width: 450px;
   border-radius: 20px;
   box-shadow: 0px 10px 13px -7px #000000;
   font-weight: bold;
+  cursor: pointer;
   &:active {
     background-color: rgba(54, 94, 170, .2);
   }
